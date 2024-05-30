@@ -157,7 +157,8 @@ class Romario_ERP_Importer
             } while ($hasMore);
             return $products;
         } catch (Exception $err) {
-            return $err;
+            error_log('Ran into an error: ' . $err->getMessage());
+            return $err->getMessage();
         }
     }
 
