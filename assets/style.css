@@ -1,0 +1,12 @@
+li#toplevel_page_romario_page {
+    background: #003BD9;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600!important;
+    letter-spacing: 4px;
+}
+
+li#toplevel_page_romario_page:hover{
+    background: #003BD9!important;
+    color: #fff!important;
+}
