@@ -36,6 +36,7 @@ final class Romario_ERP_Sync
     private function include_required_files()
     {
         require_once ROMARIO_PLUGIN_PATH . '/includes/class-romario-menu.php';
+        require_once ROMARIO_PLUGIN_PATH . '/includes/class-romario-products.php';
         require_once ROMARIO_PLUGIN_PATH . '/includes/class-romario-erp-importer.php';
         require_once ROMARIO_PLUGIN_PATH . '/includes/class-adcb-payment-gateway.php';
         require_once ROMARIO_PLUGIN_PATH . '/includes/class-bulk-upload-images.php';
